@@ -18,7 +18,7 @@ html { box-sizing: border-box;}
 body {
     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
     background-position: left top, right bottom;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -48,6 +48,9 @@ h1 {
     font-weight: 500;
 }
 
+
+/* Star Ratings */
+
 .star-reviews {
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
@@ -56,10 +59,54 @@ h1 {
     font-size: 1rem;
 }
 
-
-/* Star Ratings */
-
 /* Cards */
+.cards-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cards {
+    background-color: hsl(300, 43%, 22%);
+    width: 31%;
+    padding: 15px;
+    height: 225px;
+    border-radius: 12px;
+}
+
+h2 {
+    font-family: League Spartan, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    color: hsl(303, 10%, 53%);
+    font-family: League Spartan, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.photo-and-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    padding: 0 15px 0 0;
+}
+
+.reviews {
+    font-family: League Spartan, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
 
 
 
