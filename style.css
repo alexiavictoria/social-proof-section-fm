@@ -6,8 +6,55 @@ html { box-sizing: border-box;}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+
+.wrapper {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Background Image */
+
+body {
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Page Title & Description */
 
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-info {
+    width: 40%;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: League Spartan, Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.page-description {
+    color: hsl(300, 43%, 22%);
+    font-family: League Spartan, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.star-reviews {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-family: League Spartan, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
 
 
 /* Star Ratings */
