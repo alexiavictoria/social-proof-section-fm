@@ -52,12 +52,24 @@ h1 {
 /* Star Ratings */
 
 .star-reviews {
-    background-color: hsl(300, 24%, 96%);
+    background-color: hsl(300, 24%, 91%);
     color: hsl(300, 43%, 22%);
     font-family: League Spartan, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1rem;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    margin: 30px;
+    padding: 0 55px 0 20px;
 }
+
+
+.review-category::before {
+    content: url('./images/icon-star.svg') url('./images/icon-star.svg') url('./images/icon-star.svg') url('./images/icon-star.svg') url('./images/icon-star.svg');
+    padding: 0 30px 0 0;
+}
+
 
 /* Cards */
 .cards-section {
