@@ -40,6 +40,7 @@ h1 {
     font-family: League Spartan, Arial, Helvetica, sans-serif;
     font-size: 4rem;
     font-weight: 600;
+    margin: 50px 0 0 0;
 }
 
 .page-description {
@@ -50,6 +51,20 @@ h1 {
 
 
 /* Star Ratings */
+.star-reviews-container {
+    position: relative;
+}
+
+.first-rating {
+    position: relative;
+    right: 100px;
+}
+
+.second-rating {
+    position: relative;
+    right: 50px;
+}
+
 
 .star-reviews {
     background-color: hsl(300, 24%, 91%);
@@ -60,8 +75,9 @@ h1 {
     height: 50px;
     border-radius: 8px;
     display: flex;
-    margin: 30px;
+    margin: 30px 0 30px 30px;
     padding: 0 55px 0 20px;
+    position: relative;
 }
 
 
@@ -72,17 +88,20 @@ h1 {
 
 
 /* Cards */
-.cards-section {
+.cards-section-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 335px;
+    align-items: center;
+    position: relative;
 }
 
 .cards {
     background-color: hsl(300, 43%, 22%);
     width: 31%;
-    padding: 15px;
-    height: 225px;
+    padding: 35px;
+    height: 215px;
     border-radius: 12px;
 }
 
@@ -95,7 +114,7 @@ h2 {
 }
 
 h3 {
-    color: hsl(303, 10%, 53%);
+    color: hsl(333, 80%, 67%);
     font-family: League Spartan, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -111,6 +130,7 @@ h3 {
 .profile-photo {
     border-radius: 50%;
     padding: 0 15px 0 0;
+    height: 35px;
 }
 
 .reviews {
@@ -120,7 +140,23 @@ h3 {
     font-weight: 500;
 }
 
+.card-one {
+    position: relative;
+    bottom: 15px;
+}
 
+.card-three {
+    position: relative;
+    top: 15px;
+}
+
+/* Attribution */
+
+.attribution {
+    font-family: League Spartan, Arial, Helvetica, sans-serif;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
 
 /* Page Title & Description */
 
