@@ -84,6 +84,7 @@ h1 {
 .review-category::before {
     content: url('./images/icon-star.svg') url('./images/icon-star.svg') url('./images/icon-star.svg') url('./images/icon-star.svg') url('./images/icon-star.svg');
     padding: 0 30px 0 0;
+    letter-spacing: 10px;
 }
 
 
@@ -182,6 +183,9 @@ h1 {
     text-align: center;
 }
 
+
+/* Star Ratings */
+
 .star-reviews-container {
     flex-direction: column;
 }
@@ -194,18 +198,26 @@ h1 {
 .first-rating
 .second-rating {
     right: 0px;
+    position: relative;
 }
 
 .review-category::before {
     display: block;
+    text-align: center;
 }
 
 
-/* Star Ratings */
-
-
-
-
 /* Cards */
+
+.cards-section-container {
+    flex-direction: column;
+    height: 650px;
+    justify-content: space-around;
+}
+
+.cards {
+    width: 100%;
+}
+
 }
 
